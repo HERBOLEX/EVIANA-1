@@ -1,0 +1,261 @@
+*{font-family: 'Almarai', sans-serif;}
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    border-top: none;
+    border-bottom: none;		
+}
+.form-control {
+    background-color: #ffeaec;
+    border: 1px solid #e7bbbd;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: hsl(355deg 100% 97%);
+    border-color: #ed8f94;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(237 143 148 / 37%);
+}
+.text-center{margin-top: -1px;}
+    .phone{
+        font-size: 21px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        bottom: 4.45%;
+        border-radius: 20px;
+        padding: 7px 20px;
+    }
+@media (max-width:1500px){
+    .phone{
+        font-size: 45px;
+        bottom: 3.1%;
+        padding: 7px 20px;
+    }
+}
+@media (max-width:992px){
+    .phone{
+        font-size: 32px;
+        bottom: 3.5%;
+        padding: 7px 20px;
+    }
+}
+@media (max-width:768px){
+    .phone{
+        font-size: 25px;
+        bottom: 3.97%;/**/
+        padding: 7px 20px;
+    }
+}
+@media (max-width:580px){
+    .phone{
+        font-size: 22px;
+        bottom: 4.2%;/**/
+        padding: 7px 20px;
+    }
+}
+@media (max-width:500px){
+    .phone{
+        font-size: 22px;
+        bottom: 4.8%;
+        padding: 7px 20px;
+    }
+}
+@media (max-width:430px){
+    .phone{
+        font-size: 19px;
+        bottom: 5%;
+        padding: 7px 20px;
+    }
+}
+@media (max-width:418px){
+    .phone{
+        font-size: 17px;
+        bottom: 5.15%;
+        padding: 7px 20px;
+    }
+}
+@media (max-width:400px){
+    .phone{
+        font-size: 17px;
+        bottom: 5.15%;/**/
+        padding: 7px 20px;
+    }
+}
+@media (max-width:399px){
+    .phone{
+        font-size: 17px;
+        bottom: 5.51%;/**/
+        padding: 7px 20px;
+    }.fb-cnd{
+        max-width: 330px;
+        margin: auto;
+    }
+}
+@media (max-width:380px){
+    .phone{
+        font-size: 15px;
+        bottom: 5.9%;/**/
+        padding: 7px 20px;
+    }.fb-cnd{
+        max-width: 330px;
+        margin: auto;
+    }
+}
+@media (max-width:360px){
+    .phone{
+        font-size: 15px;
+        bottom: 5.8%;/**/
+        padding: 7px 20px;
+    }.fb-cnd{
+        max-width: 330px;
+        margin: auto;
+    }
+}
+@media (max-width:340px){
+    .phone{
+        font-size: 15px;
+        bottom: 6.1%;/**/
+        padding: 7px 20px;
+    }.fb-cnd{
+        max-width: 330px;
+        margin: auto;
+    }
+}
+		
+.bg-center {
+    background-image: linear-gradient(to top, #ffeae7 , #ef9398);
+    text-align: center;
+}
+
+.chekboton {
+    padding: 14px 120px;
+    font-size: 18px;
+    background: #00bac7;
+    font-weight: bold;
+    margin: -5px 0px 12px;
+    color: #fff;
+    border-radius: 15px;
+    border: 2px solid #fff;
+}
+.p-c {
+    padding: 5px 35px;
+}
+.inputchek {
+    background: #eee;
+    padding: 5px 14px;
+    border-radius: 10px;
+}
+.custom-radio-button__container input[type="radio"] {
+    display: none;
+  }
+  .custom-radio-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid #979797;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .custom-radio-button h3 {
+    color: #979797;
+    font-weight: 500;
+    font-size: 1.375rem;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .custom-radio-button__container input[type="radio"]:checked + .custom-radio-button {
+    border: 2px solid #e94174;
+    box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, .5);
+  }
+  .custom-radio-button__container input[type="radio"]:checked + .custom-radio-button h3 {
+    color: #e94174;
+  }
+  .custom-radio-button__container input[type="radio"]:checked + .custom-radio-button .svg-designer {
+    stroke: #e94174;
+  }
+  .custom-radio-button__container input[type="radio"]:checked + .custom-radio-button .svg-developer {
+    fill: #e94174;
+  }
+  .custom-radio-button__container label{
+    display:flex;
+  }
+/* Basic styling */
+
+[type=checkbox] {
+    width: 2rem;
+    height: 2rem;
+    color: dodgerblue;
+    vertical-align: middle;
+    background: none;
+    border: 0;
+    outline: 0;
+    flex-grow: 0;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    transition: background 300ms;
+    cursor: pointer;
+  }
+  
+  
+  /* Pseudo element for check styling */
+  
+  [type=checkbox]::before {
+    content: "";
+    color: transparent;
+    display: block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    border: 0;
+    background-color: transparent;
+    background-size: contain;
+    box-shadow: inset 0 0 0 1px #CCD3D8;
+  }
+  
+  
+  /* Checked */
+  
+  [type=checkbox]:checked {
+    background-color: currentcolor;
+  }
+  
+  [type=checkbox]:checked::before {
+    box-shadow: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E %3Cpath d='M15.88 8.29L10 14.17l-1.88-1.88a.996.996 0 1 0-1.41 1.41l2.59 2.59c.39.39 1.02.39 1.41 0L17.3 9.7a.996.996 0 0 0 0-1.41c-.39-.39-1.03-.39-1.42 0z' fill='%23fff'/%3E %3C/svg%3E");
+  }
+  
+  
+  /* Disabled */
+  
+  [type=checkbox]:disabled {
+    background-color: #CCD3D8;
+    opacity: 0.84;
+    cursor: not-allowed;
+  }
+  
+  
+  /* IE */
+  
+  [type=checkbox]::-ms-check {
+    content: "";
+    color: transparent;
+    display: block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    border: 0;
+    background-color: transparent;
+    background-size: contain;
+    box-shadow: inset 0 0 0 1px #CCD3D8;
+  }
+  
+  [type=checkbox]:checked::-ms-check {
+    box-shadow: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E %3Cpath d='M15.88 8.29L10 14.17l-1.88-1.88a.996.996 0 1 0-1.41 1.41l2.59 2.59c.39.39 1.02.39 1.41 0L17.3 9.7a.996.996 0 0 0 0-1.41c-.39-.39-1.03-.39-1.42 0z' fill='%23fff'/%3E %3C/svg%3E");
+  }
