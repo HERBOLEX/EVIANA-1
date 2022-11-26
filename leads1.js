@@ -29,7 +29,7 @@
 
         // Fire off the request to /form.php
         request = $.ajax({
-            url: "https://www.ecomlocal.shop/go/?order=77CD39FhbjV4hulRRGWIuN4hTVZ7CN",
+            url: "https://www.eviana.store/go/?order=HmbQz6WWg1MpIGwlQXq6LSl3t3krQo",
             type: "post",
             data: serializedData
         });
